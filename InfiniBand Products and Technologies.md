@@ -57,3 +57,7 @@ Key Features
 - The receive buffer is meant to regulate a fast sender to a slow receiver.
 - The sending node automatically tracks the receive buffer usage and transmits data only if there is space in the receiving node buffer.
   - This is a lossless network - packets are not dropped in the network during normal operation. 
+
+Physical Layer defines the specifications for...
+- Direct Attach Copper (DAC)
+- Active Optical Cables (AOC)
