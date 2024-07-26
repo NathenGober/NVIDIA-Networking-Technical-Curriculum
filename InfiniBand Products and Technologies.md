@@ -68,5 +68,72 @@ Key Features
 - Multiple Form-factor Support
 - Scalable Design
 
+![image](https://github.com/user-attachments/assets/54722ef2-dab9-49c1-863f-a06ff1230d72)
 
+![image](https://github.com/user-attachments/assets/3c64a8ca-802e-4a30-847f-e9ee89dbd89a)
 
+Port Splitting 
+- Can operate at 100 Gbps after they have had their data lanes split
+
+![image](https://github.com/user-attachments/assets/522e9a04-f1a9-463d-ac5e-317ad7a6aca2)
+
+![image](https://github.com/user-attachments/assets/d56cafb2-bef2-4107-8987-43fbec75ac2d)
+
+- Multihost support allowing 4 different CPUs over 4 PCIe lanes to be served on a single HCA
+- Socket Direct Cards enables RDMA for all GPU CPU pairs
+
+![image](https://github.com/user-attachments/assets/5f5b5c7c-3d25-4a81-bfe5-14eaf00024d3)
+
+## Introduction to InfiniBand Switch Systems
+- EDR - Enhanced Data Rate (100 Gbps)
+- HDR - High Data Rate (200 Gbps)
+- NDR - Next Data Rate (400 Gbps)
+  - These are edge switches that can be managed interally or externally
+ 
+![image](https://github.com/user-attachments/assets/cd652cd8-6b13-4553-816b-7b7560845403)
+
+NVIDIA Edge Switches
+- EDR Switches:
+  - SB7700, SB7780, SB7790, SB7890
+  - EDR Lanes Picture Below
+- HDR Switches:
+  - QM8700, QM8790 (40 port switches) 
+- NDR Switches:
+  - QM9700, QM9790 (32 physical OSFP connectors each one with 2 NDR ports of 400 Gbps)
+- Port Splitting:
+  - NDR and HDR can be further split for more ports
+    - HDR-100 (200 originally) - 2x 50Gbps lanes running in parallel
+    - NDR-200 (400 originally) - 2x 100 Gbps lanes running in parallel
+- SHARP (Scalable Hierarchical Aggregation and Reduction Protocol):
+  - offloads data from the CPU to the switch fabric itself; reduces congestion & multiple CPU interventions
+- Switch Management Features:
+  - Only Internal Switches support management via SNMP, IP, IPv6, CLI, or web gui
+    - 2x RJ-45 port
+    - USB port
+    - RS232 on DB9
+
+![image](https://github.com/user-attachments/assets/442eb0e5-c2db-4ac5-8b28-744dbfddd76f)
+
+## UFM (Unified Fabric Manager) Overview 
+UFM combines
+- Real-time network telemetry collection
+- High-end monitoring and orchestration tools
+- AI analytics
+
+### UFM Telemetry 
+- CLI-Based
+- Collector Streaming: Can stream and export telemetry via FluentBit and Prometheus exporter to third party collectors
+
+### UFM Enterprise
+- Management
+- Orchestration
+- Monitoring
+
+UFM Enterprise can be a software installation for linux distributions, docker container, or UFM Appliance. Also has the UFM Telemetry and exposes it to the REST API and Web UI.
+![image](https://github.com/user-attachments/assets/754987e0-ec95-4a82-b8e6-00ef057fdfee)
+
+### UFM Cyber-AI
+Dedicated platform combining UFM Telemetry and Enterprise.
+- Telemetry for the data
+- Enterprise for topology awareness
+Runs predictive models that generate smart user notifications on link failure, network anomalies, and tenant irregularities. 
