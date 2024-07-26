@@ -62,4 +62,9 @@ Physical Layer defines the specifications for...
 - Direct Attach Copper (DAC)
 - Active Optical Cables (AOC)
 
+## Host Channel Adapters (For InfiniBand)
+Key Features
+- Up to 400 Gb/s over low latency
+- Multiple Form-factor Support
+- Scalable Design
 
