@@ -158,4 +158,14 @@ Viewing Information
 
 ![image](https://github.com/user-attachments/assets/068b0d42-46ed-48d0-889f-846395ba8b88)
 
+1. Create a new netwokr via POST Operation
+  - /ufmRest/cloudx/Network
+2. Add port to existing network via POST Operation
+  - /ufmRest/cloudx/Port
+
+File: sm.conf
+M_key_per_port = true
+
+File: partition.conf
+Default Pkey, 0x7fff, all limited, self=FULL
 
