@@ -136,4 +136,26 @@ UFM Enterprise can be a software installation for linux distributions, docker co
 Dedicated platform combining UFM Telemetry and Enterprise.
 - Telemetry for the data
 - Enterprise for topology awareness
+
 Runs predictive models that generate smart user notifications on link failure, network anomalies, and tenant irregularities. 
+
+![image](https://github.com/user-attachments/assets/a73a0f58-02ae-4c4d-b776-523bccc4d0d1)
+
+## UFM Dashboard Functionality
+### Traffic Map
+![image](https://github.com/user-attachments/assets/b02f46ac-ab2e-4622-b5f5-6af675d5e38a)
+
+![image](https://github.com/user-attachments/assets/c6f58ed7-2450-409c-b774-9036e296ee8c)
+
+Viewing Information 
+- Display - review historical information about your fabric
+- Inventory - view info, alarms, and warnings about network components
+
+## How to Deploy UFM in an OpenStack-Based Cloud Environment
+![image](https://github.com/user-attachments/assets/f955f2a3-3d05-4171-88fa-4381588e66d4)
+
+![image](https://github.com/user-attachments/assets/565639b9-32bf-4b0e-9d5f-56ca55b7ecf7)
+
+![image](https://github.com/user-attachments/assets/068b0d42-46ed-48d0-889f-846395ba8b88)
+
+
