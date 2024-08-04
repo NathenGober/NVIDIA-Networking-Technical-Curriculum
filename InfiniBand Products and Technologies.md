@@ -169,3 +169,6 @@ M_key_per_port = true
 File: partition.conf
 Default Pkey, 0x7fff, all limited, self=FULL
 
+Infiniband podcast
+https://www.youtube.com/watch?v=aWoa1em8Q3c
+
