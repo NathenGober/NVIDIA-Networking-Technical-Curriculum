@@ -24,6 +24,17 @@ Done over
 
 ![image](https://github.com/user-attachments/assets/5b98e6ca-ed9b-4097-a166-44629cdf34d3)
 
+Link Layer Discovery Protocol (LLDP) - let the switch automatically configure the adapter according to the settings
+
+Accelerate Lossly Performance
+- Adaptative Retransmission
+- Transmission Window
+- Slow start
+  - Enabled using MLXREG Tool
+  - LSPCI Command to get to the Mellanox device name for connectors
+
+RoCEv2 versus InfiniBand
+
 ![image](https://github.com/user-attachments/assets/7065480f-b2e6-4094-87ad-609e41f035da)
 
 https://community.fs.com/article/an-indepth-guide-to-roce-v2-network.html
