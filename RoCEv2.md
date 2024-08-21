@@ -37,6 +37,8 @@ RoCEv2 versus InfiniBand
 
 ![image](https://github.com/user-attachments/assets/7065480f-b2e6-4094-87ad-609e41f035da)
 
+ECMP Routing (Equal-cost Multipath) - network routing strategy that allows for traffic of the same session or flow - that is, traffic with the same source and destination - to be transmitted across multiple paths of equal cost.
+
 https://community.fs.com/article/an-indepth-guide-to-roce-v2-network.html
 
 ![image](https://github.com/user-attachments/assets/448198cf-7bc5-4477-971f-a39e863cc55a)
