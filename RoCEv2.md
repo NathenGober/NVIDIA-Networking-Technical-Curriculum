@@ -5,12 +5,12 @@ Originating from Infiniband, RoCE traditionally required Lossless Fabric. Mellan
 
 Any type of Ethernet Network
 - Lossless
-  - ECN
-  - QOS
-  - PFC
+  - ECN (Explicit Congestion Notification)
+  - QOS (Quality of Service)
+  - PFC (Priority Flow Control)
 - Lossy
-  - ECN
-  - QOS
+  - ECN (Explicit Congestion Notification
+  - QOS (Quality of Service)
 
 DCQCN - Data Center Quantized Congestion Notification (Lossy Network)
 - RoCE congestion control algorithm designed by Mellanox and Microsoft
